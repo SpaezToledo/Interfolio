@@ -1,0 +1,110 @@
+body{
+  font-family: 'BankGothic Md BT', sans-serif;
+}
+
+.Name {
+  position: absolute;
+  top: 1.3em;
+  left: 2em;
+  font-size: 50px;
+  color: whitesmoke
+}
+
+.subtitle {
+  position: absolute;
+  top: 4.6em;
+  left: 4.6em;
+  font-size: 22px;
+  margin-top: 2.5em;
+  color: rgb(223, 223, 223)
+}
+
+
+.Projects{
+ position: absolute;
+left: 70%;
+top: 5em;
+width: 40%; 
+max-width: 400px; 
+}
+
+.titleP{
+ font-size: 23px;
+ position: absolute;
+ left: 8.2em;
+ bottom: 7.5em;
+ color:black
+}
+
+
+.Ship{
+ position: absolute;
+ left: 7.5em;
+top: 11.5em;
+
+}
+
+.AboutMe{
+ position: absolute;
+ left: 4%;
+ top: 16em;
+ width: 5%;
+ 
+}
+
+
+.Contact{
+ position: absolute;
+ left: 4.5%;
+ top: 23.6em;
+ width: 5%;
+}
+
+.Skills{
+ position: absolute;
+ left: 3.9%;
+ top: 29.5em;
+
+}
+
+
+
+.titleA{
+ position: absolute;
+ bottom: 2.2em;
+ font-size:18px;
+ margin-left: 6em;
+ width: 5.1em;
+ color: whitesmoke
+}
+.titleC{
+ position: absolute;
+ bottom: 1em;
+ font-size:18px;
+ margin-left: 5.5em;
+ width: 5.1em;
+ color: whitesmoke
+}
+
+.titleS{
+ position: absolute;
+ bottom: 1.1em;
+ font-size:18px;
+ margin-left: 6.2em;
+ width: 5.1em;
+ color: whitesmoke
+}
+
+
+.DateHome{
+ position: absolute;
+ margin-left: 94.8em;
+ margin-top: 35em;
+}
+
+.DateHome p{
+font-weight: 800;
+line-height: 0.6;
+color: aliceblue
+}
+
