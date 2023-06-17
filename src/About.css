@@ -1,0 +1,32 @@
+body{
+    background-color: aliceblue
+}
+
+
+.Home{
+    position: absolute;
+    left: 5em;
+   top: 11em;
+   transition: top 0.2s;
+   display: inline-block;
+  transition: opacity 0.5s;
+   }
+
+.titleH{
+    position: absolute;
+    bottom: 2.2em;
+    font-size:18px;
+    margin-left: 7em;
+    width: 5.1em;
+    color: whitesmoke
+   }
+   
+
+   .ShipA {
+    position: absolute;
+ 
+    top: 16.6em; /* Ajusta el valor según la posición inicial deseada */
+    left: 6em; /* Ajusta el valor según la posición inicial deseada */
+  }
+  
+  

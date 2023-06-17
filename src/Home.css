@@ -37,12 +37,12 @@ max-width: 400px;
 }
 
 
-.Ship{
+/* .Ship{
  position: absolute;
  left: 7.5em;
-top: 11.5em;
+top: 1.5em;
 
-}
+} */
 
 .AboutMe{
  position: absolute;
@@ -108,3 +108,17 @@ line-height: 0.6;
 color: aliceblue
 }
 
+
+
+.Ship {
+  position: absolute;
+  transition: transform 0.5s;
+  top: 11em; /* Ajusta el valor según la posición inicial deseada */
+  left: 6em; /* Ajusta el valor según la posición inicial deseada */
+}
+
+
+
+.hidden {
+  display: none;
+}
