@@ -47,29 +47,6 @@ function Skills() {
             </div>
           )}
         </article>
-<article>
-          {showAboutMe && (
-          
-              <div className="AboutMe" onClick={handleClickAbout}>
-                <img src={AboutMe} alt="About Me" />
-                <h1 className="titleA">Sobre Mi</h1>
-              </div>
-      
-          )}
-        </article>
-
-
-        <article>
-        {showContact && (
-  <div className="Contact"  onClick={handleClickContact}>
-    <img src={Contact} alt="" />
-    <h1 className="titleC">Contacto</h1>
-  </div>
-
-)}
-        </article>
-
-
 
         </section>
       

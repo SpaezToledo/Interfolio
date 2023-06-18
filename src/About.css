@@ -29,4 +29,16 @@ body{
     left: 6em; /* Ajusta el valor según la posición inicial deseada */
   }
   
-  
+  .DateAboutMe{
+    position: absolute;
+    margin-left: 45em;
+    margin-top: 30em;
+  }
+
+  .DateAboutMe p {
+    
+        font-weight: 800;
+        line-height: 0.6;
+        color: aliceblue
+    
+  }
