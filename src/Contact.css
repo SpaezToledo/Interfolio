@@ -1,0 +1,78 @@
+.contact-form {
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    margin-left: 49em;
+    margin-top: 35em;
+
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #485a94;
+    border-radius: 8px;
+    
+  }
+  
+  .contact-form button {
+    background-color: #4c6faf;
+    color: #fff;
+    border: none;
+    padding: 10px 130px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  .contact-form button:hover {
+    background-color: #45a049;
+  }
+
+  .request{
+    font-weight: 800;
+    line-height: 0.6;
+    color: aliceblue;
+    font-size: 16px;
+  }
+
+  .Msg{
+    font-weight: 800;
+    line-height: 0.6;
+    color: aliceblue;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 45em;
+    margin-left: 53em;
+  }
+
+  .custom-input {
+    background-color: transparent;
+    color: aliceblue;
+  }
+
+  .custom-input#message {
+    width: 100%;
+    height: 100px; /* Ajusta la altura según tus necesidades */
+  }
+
+  .fade-in {
+    opacity: 0;
+    animation: fade-in-animation 1s forwards;
+  }
+  
+  @keyframes fade-in-animation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

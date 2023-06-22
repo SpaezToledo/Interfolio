@@ -39,7 +39,7 @@ function AboutMe() {
           <article>
           
           {showHome && (
-            <div className="Home" onClick={handleClick}>
+            <div className="Home fade-in" onClick={handleClick}>
               <img src={Home} alt="Home" />
               <h1 className="titleH">Home</h1>
             </div>
@@ -50,14 +50,15 @@ function AboutMe() {
         </section>
       <section>
 
-        <article className='DateAboutMe'>
-          <p>Naci con el internet, 2 megas pero había.</p>
-          <p>Tuve la suerte de tener acceso a una PC</p>
+        <article className='DateAboutMe fade-in'>
+          <p>Naci con internet, 2 megas pero había.</p>
+          <p>Tuve la suerte de tener acceso a una PC.</p>
           <p>En 2021, comencé mi viaje en la programación de forma independiente</p>
-          <p> En 2022, decidí llevar mi aprendizaje al siguiente nivel y me uní a Digital House.</p>
-          <p>Donde participé en diversos proyectos y experimenté el verdadero aprendizaje práctico.</p>
-          <p>desarrollamos un proyecto grupal, un E-commerce que se trabajo durante toda la duración del curso.</p>
-          <p>En octubre de ese mismo año, terminé exitosamente el curso de programación web full stack.</p>
+          <p>En 2022, me uní a Digital House para mejorar mis habilidades.</p>
+          <p>Participé en proyectos y experimenté el intenso trabajo práctico.</p>
+          <p>Desarrollamos un E-commerce de manera grupal</p>
+          <p>atravesando diferentes desafios.</p>
+          <p>Terminé exitosamente el curso de programación web full stack.</p>
           <p>Actualmente soy un programador web independiente</p>
           <p>trabajando en proyectos personales, en busca de oportunidades. </p>
           <p></p>

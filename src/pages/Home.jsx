@@ -8,7 +8,7 @@ function Home() {
     
 
          <section>
-          <article className='DateHome'>
+          <article className='DateHome fade-in'>
           <p>Nacido en 2001</p>
           <p>en San Miguel, Bs As.</p>
           <p>El Universo</p>

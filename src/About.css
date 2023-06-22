@@ -31,14 +31,28 @@ body{
   
   .DateAboutMe{
     position: absolute;
-    margin-left: 45em;
-    margin-top: 30em;
+    margin-left: 41em;
+    margin-top: 40em;
   }
 
   .DateAboutMe p {
     
         font-weight: 800;
         line-height: 0.6;
-        color: aliceblue
-    
+        color: aliceblue;
+        font-size: 16px;
+  }
+
+  .fade-in {
+    opacity: 0;
+    animation: fade-in-animation 1s forwards;
+  }
+  
+  @keyframes fade-in-animation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }

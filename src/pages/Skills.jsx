@@ -1,8 +1,13 @@
 import React, {useState, useEffect} from 'react';
 import Home from '../assets/home.gif'
-import AboutMe from '../assets/mercurio.gif'
-import Contact from '../assets/eart.gif'
 import { Link, useNavigate, useLocation } from 'react-router-dom';
+import '../Skills.css'
+import G from '../assets/git.png'
+import GH from '../assets/github.png'
+import Html from '../assets/html.png'
+import My from '../assets/mysql.png'
+import Node from '../assets/NodeJs.png'
+import R from '../assets/React.png'
 
 function Skills() {
     const [showHome, setShowHome] = useState(true);
@@ -33,6 +38,13 @@ function Skills() {
       const handleClickContact = () => {
     navigate('/contact');
 }
+
+const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    setLoaded(true);
+  }, []);
+
   return (
     <div>
 
@@ -41,7 +53,7 @@ function Skills() {
           <article>
           
           {showAboutMe && (
-            <div className="Home" onClick={handleClick}>
+            <div className="Home fade-in" onClick={handleClick}>
               <img src={Home} alt="Home" />
               <h1 className="titleH">Home</h1>
             </div>
@@ -49,7 +61,14 @@ function Skills() {
         </article>
 
         </section>
-      
+        <div className={`image-list ${loaded ? 'loaded' : ''}`}>
+      <img className='iconH' src={Html} alt="Imagen 1" />
+      <img className='iconN'src={Node} alt="Imagen 2" />
+      <img className='iconG'src={G} alt="Imagen 3" />
+      <img className='iconGH'src={GH} alt="Imagen 3" />
+      <img className='iconM'src={My} alt="Imagen 3" />
+      <img className='iconR'src={R} alt="Imagen 3" />
+    </div>      
     
   
     </div>

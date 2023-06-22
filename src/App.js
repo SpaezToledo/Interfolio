@@ -4,6 +4,7 @@ import HomePage from './pages/Home';
 import AboutPage from './pages/About';
 import ContactPage from './pages/Contact';
 import SkillsPage from './pages/Skills';
+import ProjectsPage from './pages/Projects';
 import './App.css';
 import './Home.css';
 import Projects from './assets/a.gif';
@@ -34,10 +35,12 @@ function App() {
           </article>
 
           <article>
+          <Link to="/projects">
             <div className="Projects">
               <img src={Projects} alt="Projects" />
               <h1 className="titleP">Proyectos</h1>
             </div>
+            </Link>
           </article>
 
           <article>
@@ -79,6 +82,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/skills" element={<SkillsPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
         </Routes>
       </div>
     </Router>

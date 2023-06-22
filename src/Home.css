@@ -122,3 +122,18 @@ color: aliceblue
 .hidden {
   display: none;
 }
+
+
+.fade-in {
+  opacity: 0;
+  animation: fade-in-animation 1s forwards;
+}
+
+@keyframes fade-in-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

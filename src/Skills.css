@@ -1,0 +1,55 @@
+.image-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 45em;
+    opacity: 0;
+  transition: opacity 1s;
+  }
+  
+  .image-list.loaded {
+    opacity: 1;
+  }
+  .iconH {
+    width: 15em;
+    height: 6em;
+  }
+
+
+  .iconN {
+    width: 12em;
+    height: 8em;
+  }
+
+  .iconG{
+    width: 10em;
+    height: 4em;
+    margin-top: 1.5em;
+    
+    margin-right: 2em;
+  }
+  .iconGH{
+    width: 5em;
+    height: 4em;
+    
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+  }
+
+  .iconM{
+    width: 6em;
+    height: 4em;
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+  }
+  .iconR{
+    width: 6em;
+    height: 5em;
+    margin-left: 1.5em;
+    margin-top: 0.8em;
+  }
+
+ 
+
+  .iconH, .iconN, .iconG, .iconGH, .iconM, .iconR:last-child{
+    margin-right: 0;
+  }
