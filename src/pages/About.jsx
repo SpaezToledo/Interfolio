@@ -2,6 +2,11 @@ import React, {useState, useEffect} from 'react';
 import '../About.css'
 import Home from '../assets/home.gif'
 import {  useNavigate, useLocation } from 'react-router-dom';
+import Contact from '../assets/eart.gif';
+import Skills from '../assets/volcan.gif';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Ship from '../assets/nave.gif';
+import Projects from '../assets/a.gif';  
 
 
 
@@ -36,6 +41,13 @@ function AboutMe() {
     return (
       <div>
         <section>
+        <article className="ship-container">
+           
+           <div className="ShipA fade-in">
+             <img src={Ship} alt="Navegando" />
+           </div>
+     
+       </article>
           <article>
           
           {showHome && (
@@ -45,8 +57,35 @@ function AboutMe() {
             </div>
           )}
         </article>
+        <article>
+            
+            <Link to="/contact" >
+              <div className="Contact fade-in">
+                <img src={Contact} alt="" />
+                <h1 className="titleC">Contacto</h1>
+              </div>
+            </Link>
+        
+        </article>
 
-
+        <article>
+          
+            <Link to="/skills" >
+              <div className="Skills fade-in">
+                <img src={Skills} alt="" />
+                <h1 className="titleS">Habilidades</h1>
+              </div>
+            </Link>
+          
+        </article>
+        <article>
+          <Link to="/projects">
+            <div className="Projects fade-in">
+              <img src={Projects} alt="Projects" />
+              <h1 className="titleP">Proyectos</h1>
+            </div>
+            </Link>
+          </article>
         </section>
       <section>
 

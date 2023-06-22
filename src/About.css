@@ -56,3 +56,8 @@ body{
       opacity: 1;
     }
   }
+
+  .ShipA{
+    position: absolute;
+    top: 16em;
+  }

@@ -76,3 +76,9 @@
       opacity: 1;
     }
   }
+
+  .ShipC{
+    position: absolute;
+    top: 23em;
+    margin-left: 6em;
+  }

@@ -1,8 +1,14 @@
 import React, {useState, useEffect} from 'react';
 import Home from '../assets/home.gif'
-import { Link, useNavigate, useLocation } from 'react-router-dom';
+import {  useNavigate, useLocation } from 'react-router-dom';
 import '../Contact.css'
+import '../Home.css';
+import AboutMe from '../assets/mercurio.gif';
+import Skills from '../assets/volcan.gif';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { useForm } from '@formspree/react';
+import Ship from '../assets/nave.gif';
+import Projects from '../assets/a.gif';  
 
 function Contact() {
     const [showHome, setShowHome] = useState(true);
@@ -49,6 +55,15 @@ function Contact() {
   
   return (
     <div>
+      <section>
+
+      <article className="ship-container">
+           
+           <div className="ShipC fade-in">
+             <img src={Ship} alt="Navegando" />
+           </div>
+     
+       </article>
       <article>
           
           {showHome && (
@@ -58,7 +73,36 @@ function Contact() {
             </div>
           )}
         </article>
+        <article>
+           
+           <Link to="/about" >
+             <div className="AboutMe fade-in">
+               <img src={AboutMe} alt="About Me" />
+               <h1 className="titleA">Sobre Mi</h1>
+             </div>
+           </Link>
+        
+       </article>
 
+       <article>
+          
+          <Link to="/skills" >
+            <div className="Skills fade-in">
+              <img src={Skills} alt="" />
+              <h1 className="titleS">Habilidades</h1>
+            </div>
+          </Link>
+        
+      </article>
+      <article>
+          <Link to="/projects">
+            <div className="Projects fade-in">
+              <img src={Projects} alt="Projects" />
+              <h1 className="titleP">Proyectos</h1>
+            </div>
+            </Link>
+          </article>
+      </section>
         <form
         action="https://formspree.io/f/xrgvnwrk"
         method="POST"

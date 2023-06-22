@@ -1,6 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import Home from '../assets/home.gif'
 import { Link, useNavigate, useLocation } from 'react-router-dom';
+import '../Home.css';
+import AboutMe from '../assets/mercurio.gif';
+import Ship from '../assets/nave.gif';
 import '../Skills.css'
 import G from '../assets/git.png'
 import GH from '../assets/github.png'
@@ -10,22 +13,23 @@ import Node from '../assets/NodeJs.png'
 import R from '../assets/React.png'
 import pDF from '../assets/pdf.png'
 import PDF from '../assets/CV SANTIAGO PAEZ TOLEDO-.pdf';
+import Contact from '../assets/eart.gif';
+import Projects from '../assets/a.gif';  
 
 function Skills() {
     const [showHome, setShowHome] = useState(true);
-    const [showAboutMe, setShowAboutMe] = useState(true);
-      const [showContact, setShowContact] = useState(true);
+  
     const navigate = useNavigate();
     const location = useLocation();
     
     useEffect(() => {
       if (location.state && location.state.fromHome) {
-        setShowAboutMe(false);
+      
         setShowHome(false);
-        setShowContact(false);
+   
       } else if (location.state && location.state.fromAbout) {
-        setShowAboutMe(true);
-        setShowContact(false);
+       
+       
         setShowHome(true);
       }
     }, [location]);
@@ -33,13 +37,9 @@ function Skills() {
     const handleClick = () => {
       navigate('/');
     };
-    const handleClickAbout = () => {
-        navigate('/about');
-      };
 
-      const handleClickContact = () => {
-    navigate('/contact');
-}
+     
+
 
 const [loaded, setLoaded] = useState(false);
 
@@ -52,16 +52,53 @@ const [loaded, setLoaded] = useState(false);
 
 
           <section>
+          <article className="ship-container">
+           
+           <div className="ShipS fade-in">
+             <img src={Ship} alt="Navegando" />
+           </div>
+     
+       </article>
           <article>
           
-          {showAboutMe && (
+          {showHome && (
             <div className="Home fade-in" onClick={handleClick}>
               <img src={Home} alt="Home" />
               <h1 className="titleH">Home</h1>
             </div>
           )}
         </article>
+        <article>
+           
+           <Link to="/about" >
+             <div className="AboutMe fade-in">
+               <img src={AboutMe} alt="About Me" />
+               <h1 className="titleA">Sobre Mi</h1>
+             </div>
+           </Link>
 
+           
+        
+       </article>
+
+       <article>
+            
+            <Link to="/contact " >
+              <div className="Contact fade-in">
+                <img src={Contact} alt="" />
+                <h1 className="titleC">Contacto</h1>
+              </div>
+            </Link>
+        
+        </article>
+        <article>
+          <Link to="/projects">
+            <div className="Projects fade-in">
+              <img src={Projects} alt="Projects" />
+              <h1 className="titleP">Proyectos</h1>
+            </div>
+            </Link>
+          </article>
         </section>
         <div className={`image-list ${loaded ? 'loaded' : ''}`}>
       <img className='iconH' src={Html} alt="Imagen 1" />

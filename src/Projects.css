@@ -1,0 +1,66 @@
+
+.ShipP{
+    position: absolute;
+    margin-left: 96em;
+    margin-top: 7em;
+  }
+  .ShipP img{
+    width: 12em;
+    position: absolute;
+  }
+  
+  .image-list2 {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    margin-left: 42em;
+    margin-top: 60em;
+  }
+  
+  .image-list-items {
+    margin-right: 10em;
+    
+  }
+
+.image-list-items img{
+    width: 22em;
+    border-radius: 10px;
+}
+
+
+.muniz{
+    height: 180px; /* Altura deseada */
+    overflow: hidden;
+}
+
+.image-list2 h1{
+    font-weight: 800;
+line-height: 0.6;
+color: aliceblue;
+}
+.Hc{
+    position: absolute;
+    margin-left: 46.5em;
+   bottom: 22em;
+}
+
+.Mel{
+    position: absolute;
+    margin-left: 46.5em;
+    bottom: 2em;
+}
+
+.M{
+    position: absolute;
+    margin-left: 16em;
+   bottom: 2em;
+}
+
+.C{
+    position: absolute;
+    margin-left: -15em;
+   bottom: 2.5em;
+   height: 237px; /* Altura deseada */
+   overflow: hidden;
+}

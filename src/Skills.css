@@ -84,3 +84,10 @@
   .download.loaded {
     opacity: 1;
   }
+
+
+  .ShipS{
+    position: absolute;
+    top: 30em;
+    margin-left: 6em;
+  }
