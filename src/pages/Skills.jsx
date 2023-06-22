@@ -8,6 +8,8 @@ import Html from '../assets/html.png'
 import My from '../assets/mysql.png'
 import Node from '../assets/NodeJs.png'
 import R from '../assets/React.png'
+import pDF from '../assets/pdf.png'
+import PDF from '../assets/CV SANTIAGO PAEZ TOLEDO-.pdf';
 
 function Skills() {
     const [showHome, setShowHome] = useState(true);
@@ -70,7 +72,9 @@ const [loaded, setLoaded] = useState(false);
       <img className='iconR'src={R} alt="Imagen 3" />
     </div>      
     
-  
+    <article className={`download ${loaded ? 'loaded' : ''}`}>
+    <a href={PDF} download className="download-link">Descargar CV <img src={pDF} className='pdf' alt="Descargar" /></a>
+    </article>
     </div>
   );
 }

@@ -53,3 +53,34 @@
   .iconH, .iconN, .iconG, .iconGH, .iconM, .iconR:last-child{
     margin-right: 0;
   }
+
+  .download-link {
+    /* Agrega los estilos que desees */
+    color: aliceblue;
+    text-decoration: none; /* Elimina la decoración de subrayado */
+    font-weight: bold; /* Establece el peso de la fuente en negrita */
+    position: absolute;
+    margin-left: 56em;
+
+  }
+  
+  .download-link:hover {
+    /* Estilos para cuando el enlace se encuentra en estado de "hover" (puntero encima) */
+    text-decoration: underline; /* Agrega un subrayado cuando el puntero está encima del enlace */
+  }
+
+  .pdf{
+    position: absolute;
+    width: 50px;
+    margin-left: -5.6em;
+    margin-top: 1.5em;
+  }
+
+  .download{
+    opacity: 0;
+  transition: opacity 1s;
+  }
+
+  .download.loaded {
+    opacity: 1;
+  }
