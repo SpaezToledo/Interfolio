@@ -1,20 +1,15 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/Home';
 import AboutPage from './pages/About';
 import ContactPage from './pages/Contact';
 import SkillsPage from './pages/Skills';
 import ProjectsPage from './pages/Projects';
-import './App.css';
 import './Home.css';
- 
-
+import './App.css';
 
 
 function App() {
-
-
-
 
   return (
     <Router>
@@ -25,7 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/contact" element={<ContactPage  />} />
+          <Route path="/contact" element={<ContactPage />} />
           <Route path="/skills" element={<SkillsPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
         </Routes>

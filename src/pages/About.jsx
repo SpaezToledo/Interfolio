@@ -1,29 +1,29 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import '../About.css'
 import Home from '../assets/home.gif'
-import {  useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import Contact from '../assets/eart.gif';
 import Skills from '../assets/volcan.gif';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as  Link } from 'react-router-dom';
 import Ship from '../assets/nave.gif';
-import Projects from '../assets/a.gif';  
+import Projects from '../assets/a.gif';
 
 
 
 
 function AboutMe() {
-    const [showHome, setShowHome] = useState(true);
+  const [showHome, setShowHome] = useState(true);
 
   // const [showShip, setShowShip] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
-  
+
   useEffect(() => {
     if (location.state && location.state.fromHome) {
       setShowHome(false);
 
       // setShowShip(true);
-  
+
     } else if (location.state && location.state.fromAbout) {
       setShowHome(true);
 
@@ -33,23 +33,23 @@ function AboutMe() {
 
   const handleClick = () => {
     setShowHome(false);
-  navigate('/', { state: { fromAbout: true } });
+    navigate('/', { state: { fromAbout: true } });
   };
-  
 
-  
-    return (
-      <div>
-        <section>
+
+
+  return (
+    <div>
+      <section>
         <article className="ship-container">
-           
-           <div className="ShipA fade-in">
-             <img src={Ship} alt="Navegando" />
-           </div>
-     
-       </article>
-          <article>
-          
+
+          <div className="ShipA fade-in">
+            <img src={Ship} alt="Navegando" />
+          </div>
+
+        </article>
+        <article>
+
           {showHome && (
             <div className="Home fade-in" onClick={handleClick}>
               <img src={Home} alt="Home" />
@@ -58,25 +58,25 @@ function AboutMe() {
           )}
         </article>
         <article>
-            
-            <Link to="/contact" >
-              <div className="Contact fade-in">
-                <img src={Contact} alt="" />
-                <h1 className="titleC">Contacto</h1>
-              </div>
-            </Link>
-        
+
+          <Link to="/contact" >
+            <div className="Contact fade-in">
+              <img src={Contact} alt="" />
+              <h1 className="titleC">Contacto</h1>
+            </div>
+          </Link>
+
         </article>
 
         <article>
-          
-            <Link to="/skills" >
-              <div className="Skills fade-in">
-                <img src={Skills} alt="" />
-                <h1 className="titleS">Habilidades</h1>
-              </div>
-            </Link>
-          
+
+          <Link to="/skills" >
+            <div className="Skills fade-in">
+              <img src={Skills} alt="" />
+              <h1 className="titleS">Habilidades</h1>
+            </div>
+          </Link>
+
         </article>
         <article>
           <Link to="/projects">
@@ -84,9 +84,9 @@ function AboutMe() {
               <img src={Projects} alt="Projects" />
               <h1 className="titleP">Proyectos</h1>
             </div>
-            </Link>
-          </article>
-        </section>
+          </Link>
+        </article>
+      </section>
       <section>
 
         <article className='DateAboutMe fade-in'>
@@ -107,14 +107,14 @@ function AboutMe() {
         </article>
 
       </section>
-      
 
 
 
-      </div>
-    );
-  }
-  
-  export default AboutMe;
+
+    </div>
+  );
+}
+
+export default AboutMe;
 
 

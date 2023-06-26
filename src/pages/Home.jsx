@@ -1,5 +1,4 @@
 import React  from 'react';
-import '../App.css';
 import '../Home.css';
 import AboutMe from '../assets/mercurio.gif';
 import Contact from '../assets/eart.gif';
