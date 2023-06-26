@@ -1,7 +1,21 @@
-body {
+@media screen and (min-width: 1920px) {
+  body {
     background-image: url('./assets/espaciow.png');
     background-repeat: no-repeat;
     background-size: cover;
    
   }
+
+
+}
+
+
+body {
+  background-image: url('./assets/BgMobile.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-position: 28% 85%;
+
+}
 

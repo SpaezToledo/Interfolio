@@ -1,3 +1,6 @@
+@media screen and (min-width: 1920px)
+{
+
 .image-list {
     display: flex;
     justify-content: center;
@@ -91,3 +94,5 @@
     top: 30em;
     margin-left: 6em;
   }
+
+}

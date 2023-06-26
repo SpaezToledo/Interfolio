@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import '../About.css'
 import Home from '../assets/home.gif'
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation, Link } from 'react-router-dom';
 import Contact from '../assets/eart.gif';
 import Skills from '../assets/volcan.gif';
-import { BrowserRouter as  Link } from 'react-router-dom';
 import Ship from '../assets/nave.gif';
 import Projects from '../assets/a.gif';
 

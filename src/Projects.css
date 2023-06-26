@@ -1,4 +1,4 @@
-
+@media screen and (min-width: 1920px){
 .ShipP{
     position: absolute;
     margin-left: 96em;
@@ -63,4 +63,5 @@ color: aliceblue;
    bottom: 2.5em;
    height: 237px; /* Altura deseada */
    overflow: hidden;
+}
 }

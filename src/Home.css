@@ -1,7 +1,107 @@
 body{
   font-family: 'BankGothic Md BT', sans-serif;
+  
+}
+.Name {
+  position: relative;
+  top: 1.3em;
+  left: 1.4em;
+  font-size: 7vw;
+  color: whitesmoke;
+width: 12.3em;
 }
 
+.subtitle {
+  position: relative;
+  top: 1.2em;
+  left: 2.3em;
+  font-size: 4.4vw;
+  
+  color: rgb(223, 223, 223)
+}
+
+
+.Projects{
+  position: relative;
+ left: 60%;
+ bottom:35em ;
+ }
+
+ .titleP{
+  font-size: 23px;
+  position: relative;
+  left: 8.2em;
+  bottom: 10.5em;
+  color:black
+ }
+
+
+ .AboutMe{
+  position: relative;
+  left: 4%;
+  bottom: 1.5em;
+ }
+ 
+ .titleA{
+  position: relative;
+  bottom: 6.2em;
+  font-size:14px;
+  margin-left: 1.9em;
+  width: 5.1em;
+  color: whitesmoke
+ }
+
+ .Contact{
+  position: relative;
+  left: 7%;
+  bottom: 4em;
+  width: 5%;
+ }
+
+ .titleC{
+  position: relative;
+  bottom: 4.6em;
+  font-size:14px;
+  margin-left: 1.1em;
+  width: 5.1em;
+  color: whitesmoke
+ }
+
+
+ .Skills{
+  position: relative;
+  left: 3.4%;
+  bottom: 5.4em;
+ }
+ 
+ .titleS{
+  position: relative;
+  bottom: 6em;
+  font-size:10px;
+  margin-left: 3.2em;
+  width: 5.1em;
+  color: whitesmoke
+ }
+ 
+
+ .DateHome{
+  position: relative;
+ bottom: 26em;
+ margin-left: 3em;
+ }
+ 
+ .DateHome p{
+ font-weight: 800;
+ line-height: 0.6;
+ color: aliceblue
+ }
+
+
+
+
+
+
+@media screen and (min-width: 1920px) {
 .Name {
   position: absolute;
   top: 1.3em;
@@ -137,3 +237,5 @@ color: aliceblue
     opacity: 1;
   }
 }
+
+} 

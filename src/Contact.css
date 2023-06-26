@@ -1,4 +1,4 @@
-.contact-form {
+@media screen and (min-width: 1920px){ .contact-form {
     width: 300px;
     padding: 20px;
     position: absolute;
@@ -82,3 +82,4 @@
     top: 23em;
     margin-left: 6em;
   }
+}

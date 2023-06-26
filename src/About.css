@@ -1,4 +1,4 @@
-body{
+@media screen and (min-width: 1920px){ body{
     background-color: aliceblue
 }
 
@@ -61,3 +61,4 @@ body{
     position: absolute;
     top: 16em;
   }
+}
