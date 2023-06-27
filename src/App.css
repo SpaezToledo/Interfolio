@@ -11,11 +11,11 @@
 
 
 body {
-  background-image: url('./assets/BgMobile.png');
+  background-image: url('./assets/espaciow.png');
   background-size: auto;
   background-repeat: no-repeat;
   z-index: -1;
-  background-position: 28% 85%;
+  background-position: 38% 0%;
 
 }
 

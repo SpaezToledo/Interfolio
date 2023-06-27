@@ -68,7 +68,6 @@ function Home() {
           <p>El Universo</p>
           <p>nos brinda inspiración</p>
           <p>e infinitas oportunidades.</p>
-         
           <p>Esta creencia</p>
           <p>se extiende al campo</p>
           <p>del desarrollo web,</p>

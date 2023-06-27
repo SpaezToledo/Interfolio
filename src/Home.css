@@ -1,3 +1,4 @@
+
 body{
   font-family: 'BankGothic Md BT', sans-serif;
   
@@ -9,37 +10,43 @@ body{
   font-size: 7vw;
   color: whitesmoke;
 width: 12.3em;
+margin: 0;
+  padding: 0;
 }
 
 .subtitle {
   position: relative;
-  top: 1.2em;
+  top: 2em;
   left: 2.3em;
   font-size: 4.4vw;
-  
-  color: rgb(223, 223, 223)
+  color: rgb(223, 223, 223);
+  margin: 0;
+  padding: 0;
 }
 
 
 .Projects{
   position: relative;
  left: 60%;
- bottom:35em ;
+ top:-30em ;
  }
 
  .titleP{
   font-size: 23px;
   position: relative;
-  left: 8.2em;
-  bottom: 10.5em;
-  color:black
+  top: -9.8em;
+  color:black;
+  margin: 0 8.2em auto;
+padding: 0;
+
+
  }
 
 
  .AboutMe{
   position: relative;
   left: 4%;
-  bottom: 1.5em;
+
  }
  
  .titleA{
@@ -54,7 +61,7 @@ width: 12.3em;
  .Contact{
   position: relative;
   left: 7%;
-  bottom: 4em;
+  top: -3em;
   width: 5%;
  }
 
@@ -71,7 +78,7 @@ width: 12.3em;
  .Skills{
   position: relative;
   left: 3.4%;
-  bottom: 5.4em;
+  top: -4.5em;
  }
  
  .titleS{
@@ -86,137 +93,29 @@ width: 12.3em;
 
  .DateHome{
   position: relative;
- bottom: 26em;
- margin-left: 3em;
+ top: 26em;
+ margin-left: 2.8em;
+
  }
  
  .DateHome p{
  font-weight: 800;
  line-height: 0.6;
- color: aliceblue
+ color: aliceblue;
+ height: 1em;
  }
 
-
-
-
-
-
-@media screen and (min-width: 1920px) {
-.Name {
-  position: absolute;
-  top: 1.3em;
-  left: 2.4em;
-  font-size: 2.5vw;
-  color: whitesmoke
-}
-
-.subtitle {
-  position: absolute;
-  top: 4.6em;
-  left: 5.5em;
-  font-size: 1.1vw;
-  margin-top: 2.5em;
-  color: rgb(223, 223, 223)
-}
-
-
-.Projects{
- position: absolute;
-left: 70%;
-top: 5em;
-width: 40%; 
-max-width: 400px; 
-}
-
-.titleP{
- font-size: 23px;
- position: absolute;
- left: 8.2em;
- bottom: 7.5em;
- color:black
-}
-
-
-/* .Ship{
- position: absolute;
- left: 7.5em;
-top: 1.5em;
-
-} */
-
-.AboutMe{
- position: absolute;
- left: 4%;
- top: 16em;
- width: 5%;
  
-}
-
-
-.Contact{
- position: absolute;
- left: 4.5%;
- top: 23.6em;
- width: 5%;
-}
-
-.Skills{
- position: absolute;
- left: 3.9%;
- top: 29.5em;
-
-}
-
-
-
-.titleA{
- position: absolute;
- bottom: 2.2em;
- font-size:18px;
- margin-left: 6em;
- width: 5.1em;
- color: whitesmoke
-}
-.titleC{
- position: absolute;
- bottom: 1em;
- font-size:18px;
- margin-left: 5.5em;
- width: 5.1em;
- color: whitesmoke
-}
-
-.titleS{
- position: absolute;
- bottom: 1.1em;
- font-size:18px;
- margin-left: 6.2em;
- width: 5.1em;
- color: whitesmoke
-}
-
-
-.DateHome{
- position: absolute;
- margin-left: 94.8em;
- margin-top: 35em;
-}
-
-.DateHome p{
-font-weight: 800;
-line-height: 0.6;
-color: aliceblue
-}
-
-
-
 .Ship {
-  position: absolute;
+  position: relative;
   transition: transform 0.5s;
-  top: 11em; /* Ajusta el valor según la posición inicial deseada */
-  left: 6em; /* Ajusta el valor según la posición inicial deseada */
+  top: 1.5em; /* Ajusta el valor según la posición inicial deseada */
+  left: 1em; /* Ajusta el valor según la posición inicial deseada */
 }
 
+section{
+  height: 0;
+}
 
 
 .hidden {
@@ -229,6 +128,7 @@ color: aliceblue
   animation: fade-in-animation 1s forwards;
 }
 
+
 @keyframes fade-in-animation {
   from {
     opacity: 0;
@@ -237,5 +137,400 @@ color: aliceblue
     opacity: 1;
   }
 }
+html
+{overflow: hidden;
+}
 
-} 
+
+
+ @media screen and (max-width: 1023px) and (min-width: 768px) {
+  .Ship{
+    position: relative;
+   margin-top: 3.5em;
+   margin-left: 3em;
+  }
+  .Projects{
+    position: relative;
+   left: 60%;
+   top:-30em ;
+   }
+  
+   .titleP{
+  width: 0;
+  height: 0;
+   }
+  
+   .Projects.fade-in{
+    width: 0;
+    height: 0;
+  }
+  
+  
+   .AboutMe{
+    position: relative;
+    left: 8%;
+    top: -0.2em;
+   }
+   
+   .titleA{
+    position: relative;
+    bottom: 6.2em;
+    font-size:14px;
+    margin-left: 1.9em;
+    width: 5.1em;
+    color: whitesmoke
+   }
+  
+   .Contact{
+    position: relative;
+    left: 9%;
+    top: -3em;
+    width: 5%;
+   }
+  
+   .titleC{
+    position: relative;
+    bottom: 4.6em;
+    font-size:14px;
+    margin-left: 1.1em;
+    width: 5.1em;
+    color: whitesmoke
+   }
+  
+  
+   .Skills{
+    position: relative;
+    left: 7.5%;
+    top: -4.5em;
+   }
+   
+   .titleS{
+    position: relative;
+    bottom: 6em;
+    font-size:10px;
+    margin-left: 3.2em;
+    width: 5.1em;
+    color: whitesmoke
+   }
+   
+  
+   .DateHome{
+    position: relative;
+   margin-left: 26em;
+  
+   }
+   
+   .DateHome p{
+   font-weight: 800;
+   line-height: 0.6;
+   color: aliceblue;
+   height: 1em;
+   }
+  
+
+
+}
+
+
+@media screen and (min-width: 1024px) and (max-width:1439px) {
+  .Ship{
+    position: relative;
+   margin-top: 4em;
+   margin-left: 4em;
+  }
+  .Projects{
+    position: relative;
+   left: 60%;
+   top:-30em ;
+   }
+  
+   .titleP{
+  width: 0;
+  height: 0;
+   }
+  
+   .Projects.fade-in{
+    width: 0;
+    height: 0;
+  }
+  
+  
+   .AboutMe{
+    position: relative;
+    left: 8%;
+    top: -0.2em;
+   }
+   
+   .titleA{
+    position: relative;
+    bottom: 6.2em;
+    font-size:14px;
+    margin-left: 1.9em;
+    width: 5.1em;
+    color: whitesmoke
+   }
+  
+   .Contact{
+    position: relative;
+    left: 9%;
+    top: -3em;
+    width: 5%;
+   }
+  
+   .titleC{
+    position: relative;
+    bottom: 4.6em;
+    font-size:14px;
+    margin-left: 1.1em;
+    width: 5.1em;
+    color: whitesmoke
+   }
+  
+  
+   .Skills{
+    position: relative;
+    left: 7.5%;
+    top: -4.5em;
+   }
+   
+   .titleS{
+    position: relative;
+    bottom: 6em;
+    font-size:10px;
+    margin-left: 3.2em;
+    width: 5.1em;
+    color: whitesmoke
+   }
+   
+  
+   .DateHome{
+    position: relative;
+   margin-left: 38em;
+  
+   }
+   
+   .DateHome p{
+   font-weight: 800;
+   line-height: 0.6;
+   color: aliceblue;
+   height: 1em;
+   }
+  
+}
+
+
+@media screen and (min-width: 1440px){
+  .Name {
+    position: relative;
+    top: 2.3em;
+    left: 2.4em;
+    font-size: 3.5vw;
+    color: whitesmoke
+  }
+  
+  .subtitle {
+    position: relative;
+    top: 3em;
+    margin-left: 3.5em;
+    font-size: 1.5vw;
+    margin-top: 2.5em;
+    color: rgb(223, 223, 223)
+  }
+  
+  
+  .Projects{
+   position: relative;
+  left: 70%;
+ 
+  width: 40%; 
+  max-width: 400px; 
+  }
+  
+  
+
+  .AboutMe{
+   position: relative;
+   left: 7%;
+   top: 4em;
+   width: 5%;
+   
+  }
+  
+  
+  .Contact{
+   position: relative;
+   left: 7.5%;
+   top: 1.6em;
+   width: 5%;
+  }
+  
+  .Skills{
+   position: relative;
+   left: 6.5%;
+   top: 1em;
+  
+  }
+  
+  
+  
+
+  
+  .DateHome{
+   position: relative;
+  margin-left: 72em;
+  }
+  
+  .DateHome p{
+  font-weight: 800;
+  line-height: 0.6;
+  color: aliceblue
+  }
+  
+  
+  
+  .Ship {
+    position: relative;
+    transition: transform 0.5s;
+    top: 5em;  
+    left: 6em; 
+  }
+  
+  
+  
+  .hidden {
+    display: none;
+  }
+  
+  
+  .fade-in {
+    opacity: 0;
+    animation: fade-in-animation 1s forwards;
+  }
+  
+  @keyframes fade-in-animation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .Projects.fade-in{
+    width: 0;
+    height: 0;
+  }
+  section{
+    height: 0;
+  }
+  
+}
+
+
+
+@media screen and (min-width: 1920px){
+  .Name {
+    position: relative;
+    top: 2.3em;
+    left: 2.4em;
+    font-size: 3vw;
+    color: whitesmoke
+  }
+  
+  .subtitle {
+    position: relative;
+    top: 2em;
+    margin-left: 3em;
+    font-size: 1.4vw;
+    margin-top: 2.5em;
+    color: rgb(223, 223, 223)
+  }
+  
+  
+  .Projects{
+   position: relative;
+  left: 70%;
+ 
+  width: 40%; 
+  max-width: 400px; 
+  }
+  
+  
+
+  .AboutMe{
+   position: relative;
+   left: 7%;
+   top: 4em;
+   width: 5%;
+   
+  }
+  
+  
+  .Contact{
+   position: relative;
+   left: 7.5%;
+   top: 1.6em;
+   width: 5%;
+  }
+  
+  .Skills{
+   position: relative;
+   left: 6.8%;
+   top: 1em;
+  
+  }
+  
+
+  
+  .DateHome{
+   position: relative;
+  margin-left: 94em;
+  top: 24em;
+  }
+  
+  .DateHome p{
+  font-weight: 800;
+  line-height: 0.6;
+  color: aliceblue
+  }
+  
+  
+  
+  .Ship {
+    position: relative;
+    transition: transform 0.5s;
+    top: 5em;  
+    left: 9em; 
+  }
+  
+  
+  
+  .hidden {
+    display: none;
+  }
+  
+  
+  .fade-in {
+    opacity: 0;
+    animation: fade-in-animation 1s forwards;
+  }
+  
+  @keyframes fade-in-animation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .Projects.fade-in{
+    width: 0;
+    height: 0;
+  }
+  section{
+    height: 0;
+  }
+  
+
+
+
+}
