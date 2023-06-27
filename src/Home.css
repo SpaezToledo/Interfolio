@@ -144,6 +144,8 @@ html
 
 
  @media screen and (max-width: 1023px) and (min-width: 768px) {
+ 
+  
   .Ship{
     position: relative;
    margin-top: 3.5em;
@@ -233,9 +235,24 @@ html
 
 
 @media screen and (min-width: 1024px) and (max-width:1439px) {
+  .Name {
+    position: relative;
+    top: 2em;
+   margin-left: 1em;
+    font-size: 4vw;
+    
+  }
+  
+  .subtitle {
+    position: relative;
+    top: 3.9em;
+    margin-left:2.8em;
+    font-size: 1.9vw;
+  
+  }
   .Ship{
     position: relative;
-   margin-top: 4em;
+   margin-top: 3.5em;
    margin-left: 4em;
   }
   .Projects{
