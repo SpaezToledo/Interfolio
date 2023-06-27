@@ -449,9 +449,7 @@ html
   .Projects{
    position: relative;
   left: 70%;
- 
-  width: 40%; 
-  max-width: 400px; 
+ top: -33.9em;
   }
   
   
@@ -484,7 +482,7 @@ html
   .DateHome{
    position: relative;
   margin-left: 94em;
-  top: 24em;
+  top: 22em;
   }
   
   .DateHome p{
