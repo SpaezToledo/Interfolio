@@ -1,24 +1,26 @@
-
 body{
   font-family: 'BankGothic Md BT', sans-serif;
-  
 }
+*{
+  text-decoration: none;
+}
+
 .Name {
   position: relative;
-  top: 1.3em;
-  left: 1.4em;
-  font-size: 7vw;
+  
+  
+  font-size: 14vw;
   color: whitesmoke;
-width: 12.3em;
+width: 7.3em;
 margin: 0;
   padding: 0;
 }
 
 .subtitle {
   position: relative;
-  top: 2em;
-  left: 2.3em;
-  font-size: 4.4vw;
+  
+  
+  font-size: 8vw;
   color: rgb(223, 223, 223);
   margin: 0;
   padding: 0;
@@ -27,26 +29,25 @@ margin: 0;
 
 .Projects{
   position: relative;
- left: 60%;
- top:-30em ;
+right: 30%;
+
  }
 
  .titleP{
   font-size: 23px;
   position: relative;
-  top: -9.8em;
+  top: -9.5em;
   color:black;
   margin: 0 8.2em auto;
 padding: 0;
-
-
  }
+
 
 
  .AboutMe{
   position: relative;
   left: 4%;
-
+  top: 1em;
  }
  
  .titleA{
@@ -55,14 +56,16 @@ padding: 0;
   font-size:14px;
   margin-left: 1.9em;
   width: 5.1em;
-  color: whitesmoke
+  color: whitesmoke;
+  
  }
 
  .Contact{
   position: relative;
-  left: 7%;
-  top: -3em;
+  left: 6%;
+  top: -2em;
   width: 5%;
+  
  }
 
  .titleC{
@@ -71,14 +74,14 @@ padding: 0;
   font-size:14px;
   margin-left: 1.1em;
   width: 5.1em;
-  color: whitesmoke
+  color: whitesmoke;
  }
 
 
  .Skills{
   position: relative;
-  left: 3.4%;
-  top: -4.5em;
+  left: 2.8%;
+  top: -4.2em;
  }
  
  .titleS{
@@ -93,7 +96,7 @@ padding: 0;
 
  .DateHome{
   position: relative;
- top: 26em;
+ top: 52em;
  margin-left: 2.8em;
 
  }
@@ -109,7 +112,7 @@ padding: 0;
 .Ship {
   position: relative;
   transition: transform 0.5s;
-  top: 1.5em; /* Ajusta el valor según la posición inicial deseada */
+  top: 1em; /* Ajusta el valor según la posición inicial deseada */
   left: 1em; /* Ajusta el valor según la posición inicial deseada */
 }
 
@@ -139,12 +142,19 @@ section{
 }
 html
 {overflow: hidden;
+  
 }
 
 
 
  @media screen and (max-width: 1023px) and (min-width: 768px) {
- 
+ .Name{
+  font-size: 8vw;
+  width: 12.5em;
+ }
+ .subtitle{
+  font-size: 5vw;
+ }
   
   .Ship{
     position: relative;
@@ -219,7 +229,7 @@ html
    .DateHome{
     position: relative;
    margin-left: 26em;
-  
+  top: 35em;
    }
    
    .DateHome p{
@@ -227,6 +237,7 @@ html
    line-height: 0.6;
    color: aliceblue;
    height: 1em;
+   font-size: 24px;
    }
   
 
@@ -235,24 +246,25 @@ html
 
 
 @media screen and (min-width: 1024px) and (max-width:1439px) {
+  
   .Name {
     position: relative;
-    top: 2em;
-   margin-left: 1em;
-    font-size: 4vw;
-    
+    top: 0.5em;
+   margin-left: 0em;
+    font-size: 8vw;
+    width: 12.5em;
   }
   
   .subtitle {
     position: relative;
-    top: 3.9em;
-    margin-left:2.8em;
-    font-size: 1.9vw;
+    top: 1em;
+  
+    font-size: 4.5vw;
   
   }
   .Ship{
     position: relative;
-   margin-top: 3.5em;
+   margin-top: 5em;
    margin-left: 4em;
   }
   .Projects{
@@ -323,7 +335,7 @@ html
    .DateHome{
     position: relative;
    margin-left: 38em;
-  
+  top: 34em;
    }
    
    .DateHome p{
@@ -331,6 +343,7 @@ html
    line-height: 0.6;
    color: aliceblue;
    height: 1em;
+   font-size: 24px;
    }
   
 }
@@ -339,17 +352,18 @@ html
 @media screen and (min-width: 1440px){
   .Name {
     position: relative;
-    top: 2.3em;
-    left: 2.4em;
-    font-size: 3.5vw;
-    color: whitesmoke
+    top: 1.5em;
+    left: 1.4em;
+    font-size: 5.5vw;
+    color: whitesmoke;
+    width: 12.5em;
   }
   
   .subtitle {
     position: relative;
-    top: 3em;
-    margin-left: 3.5em;
-    font-size: 1.5vw;
+    top: 0em;
+    margin-left: 2.6em;
+    font-size: 3vw;
     margin-top: 2.5em;
     color: rgb(223, 223, 223)
   }
@@ -357,10 +371,8 @@ html
   
   .Projects{
    position: relative;
-  left: 70%;
- 
-  width: 40%; 
-  max-width: 400px; 
+  left: 60%;
+  top: -30em;
   }
   
   
@@ -394,13 +406,15 @@ html
   
   .DateHome{
    position: relative;
-  margin-left: 72em;
+  margin-left: 48em;
+  top: 24em;
   }
   
   .DateHome p{
   font-weight: 800;
   line-height: 0.6;
-  color: aliceblue
+  color: aliceblue;
+  font-size: 28px;
   }
   
   
@@ -456,7 +470,7 @@ html
   .subtitle {
     position: relative;
     top: 2em;
-    margin-left: 3em;
+    margin-left: 5.2em;
     font-size: 1.4vw;
     margin-top: 2.5em;
     color: rgb(223, 223, 223)
@@ -498,14 +512,15 @@ html
   
   .DateHome{
    position: relative;
-  margin-left: 94em;
-  top: 22em;
+  margin-left: 96em;
+  top: 20em;
   }
   
   .DateHome p{
   font-weight: 800;
   line-height: 0.6;
-  color: aliceblue
+  color: aliceblue;
+  font-size: 18px;
   }
   
   

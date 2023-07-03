@@ -1,21 +1,30 @@
 @media screen and (min-width: 1920px) {
   body {
-    background-image: url('./assets/espaciow.png');
     background-repeat: no-repeat;
     background-size: cover;
-   
   }
-
+#root{
+  overflow: hidden;
+}
 
 }
 
 
 body {
-  background-image: url('./assets/espaciow.png');
-  background-size: auto;
-  background-repeat: no-repeat;
-  z-index: -1;
-  background-position: 38% 0%;
-
+  padding: 0;
+  margin: 0;
 }
 
+#root{
+  background-image: url('./assets/espaciow.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  height: 100%;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  overflow-y: hidden;
+  position: absolute;
+}
