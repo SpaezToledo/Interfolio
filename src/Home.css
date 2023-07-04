@@ -47,7 +47,7 @@ padding: 0;
  .AboutMe{
   position: relative;
   left: 4%;
-  top: 1em;
+
  }
  
  .titleA{
@@ -62,7 +62,7 @@ padding: 0;
 
  .Contact{
   position: relative;
-  left: 6%;
+  left: 6.5%;
   top: -2em;
   width: 5%;
   
@@ -80,23 +80,46 @@ padding: 0;
 
  .Skills{
   position: relative;
-  left: 2.8%;
-  top: -4.2em;
+  left: 2.5%;
+  top: -2.5em;
  }
  
  .titleS{
   position: relative;
   bottom: 6em;
-  font-size:10px;
-  margin-left: 3.2em;
+  font-size:11px;
+  margin-left: 2.5em;
   width: 5.1em;
   color: whitesmoke
  }
  
 
+ .Projects img{
+ width: auto;
+ height: auto;
+}
+
+
+  .AboutMe img{
+    width: auto;
+    height: auto;
+    }
+  
+
+  .Contact img{
+    width: auto;
+ height: auto;
+  }
+  
+
+  .Skills img{
+    width: auto;
+ height: auto;
+  }
+
  .DateHome{
   position: relative;
- top: 52em;
+ top: 49em;
  margin-left: 2.8em;
 
  }
@@ -129,6 +152,7 @@ section{
 .fade-in {
   opacity: 0;
   animation: fade-in-animation 1s forwards;
+ 
 }
 
 
@@ -395,7 +419,7 @@ html
   
   .Skills{
    position: relative;
-   left: 6.5%;
+   left: 6.7%;
    top: 1em;
   
   }
@@ -482,8 +506,9 @@ html
   left: 70%;
  top: -33.9em;
   }
+.Projects img{
   
-  
+}
 
   .AboutMe{
    position: relative;
@@ -493,12 +518,19 @@ html
    
   }
   
+  .AboutMe img{
+   
+    }
   
+     
   .Contact{
    position: relative;
    left: 7.5%;
    top: 1.6em;
    width: 5%;
+  }
+  .Contact img{
+    
   }
   
   .Skills{
@@ -507,7 +539,9 @@ html
    top: 1em;
   
   }
-  
+  .Skills img{
+    
+  }
 
   
   .DateHome{
@@ -563,4 +597,45 @@ html
 
 
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1680px) and (max-height: 1050px){
+  .Name{
+    font-size: 3.5vw;
+    
+  }
+  .subtitle{
+    font-size: 2vw;
+    
+  }
+  .Projects{
+    top: -38em;
+    margin-left: 4em;
+  }
+  .Projects img{
+    width: auto;
+    height: auto;
+  }
+  .DateHome{
+    left: 31em;
+    top: 20em;
+  }
+  .DateHome p{
+    font-size: 1vw;
+  }
 }
