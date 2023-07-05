@@ -6,7 +6,6 @@ import AboutMe from '../assets/mercurio.gif';
 import Contact from '../assets/eart.gif';
 import Skills from '../assets/volcan.gif';
 import Ship from '../assets/nave.gif';
-import '../Home.css';
 import Hc from '../assets/Hc.png';
 import Meli from '../assets/Meli.png';
 import Muniz from '../assets/Muniz.jpg';
@@ -42,7 +41,7 @@ function Projects() {
        </article>
       <article>
         {showHome && (
-          <div className='Home fade-in' onClick={handleClick}>
+          <div className='HomeP fade-in' onClick={handleClick}>
             <img src={Home} alt='Home' />
             <h1 className='titleH'>Home</h1>
           </div>
@@ -51,7 +50,7 @@ function Projects() {
       <article>
            
            <Link to="/about" >
-             <div className="AboutMe fade-in">
+             <div className="AboutMeP fade-in">
                <img src={AboutMe} alt="About Me" />
                <h1 className="titleA">Sobre Mi</h1>
              </div>
@@ -62,7 +61,7 @@ function Projects() {
        <article>
             
             <Link to="/contact" >
-              <div className="Contact fade-in">
+              <div className="ContactP fade-in">
                 <img src={Contact} alt="" />
                 <h1 className="titleC">Contacto</h1>
               </div>
@@ -73,7 +72,7 @@ function Projects() {
         <article>
           
             <Link to="/skills" >
-              <div className="Skills fade-in">
+              <div className="SkillsP fade-in">
                 <img src={Skills} alt="" />
                 <h1 className="titleS">Habilidades</h1>
               </div>

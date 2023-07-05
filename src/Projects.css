@@ -1,5 +1,167 @@
-@media screen and (min-width: 1920px){
+.HomeP img{
+  width: 10em;
+}
+.titleH{
+  position: relative;
+ font-size: 3vw;
+ 
+}
+.AboutMeP{
+  position: relative;
+margin-left: 0.8em;
+bottom: 5.6em;
+}
+.ContactP{
+  position: relative;
+  margin-left: 1.3em;
+  bottom: 7.6em;
+}
+.SkillsP{
+  position: relative;
+  margin-left: 0.5em;
+  bottom: 8.1em;
+}
 .ShipP{
+  position:absolute;
+margin-left: 4.2em;
+  margin-top: 33em;
+}
+.ShipP img{
+  width: 12em;
+}
+
+.image-list2 {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  position:relative;
+  top: 5em;
+}
+
+.image-list-items img{
+   width: 10em;
+  border-radius: 10px;
+}
+
+.image-list2 h1{
+   font-weight: 800;
+line-height: 0.6;
+color: aliceblue; 
+}
+.Hc{
+  position: relative;
+ top: 40em;
+}
+
+.Mel{
+  position: relative;
+  margin-left: -14.6em;
+  top: 58em;
+}
+
+.M{
+  position: relative;
+ top: 40em;
+ margin-left: 0.5em;
+}
+.M img{
+  width: 9em;
+}
+
+.C{
+ position: relative;
+  margin-left: -10em;
+ top: 48.5em;
+
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px){
+ .Home{
+  position: relative;
+  margin-left: 2em;
+ }
+  .Home img{
+    width: 10em;
+  }
+  .titleH{
+    position: relative;
+   font-size: 3vw;
+   
+  }
+  .AboutMe{
+   
+  }
+  .Contact{
+   
+  }
+  .Skills{
+   
+  }
+  .ShipP{
+    position:relative;
+  margin-left: 5em;
+    margin-top: 33em;
+  }
+  .ShipP img{
+    width: 12em;
+  }
+  
+  .image-list2 {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    position:relative;
+    top: 8em;
+  }
+  
+  .image-list-items img{
+     width: 10em;
+    border-radius: 10px;
+  }
+  
+  .image-list2 h1{
+     font-weight: 800;
+  line-height: 0.6;
+  color: aliceblue; 
+  }
+  .Hc{
+    position: relative;
+   top: 40em;
+  }
+  
+  .Mel{
+    position: relative;
+    margin-left: -14.6em;
+    top: 58em;
+  }
+  
+  .M{
+    position: relative;
+   top: 40em;
+   margin-left: 0.5em;
+  }
+  .M img{
+    width: 9em;
+  }
+  
+  .C{
+   position: relative;
+    margin-left: -10em;
+   top: 48.5em;
+  
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1439px){
+
+}
+
+@media screen and (min-width: 1440px){
+
+}
+
+@media screen and (min-width: 1920px){
+/* .ShipP{
     position: absolute;
     margin-left: 96em;
     margin-top: 7em;
@@ -30,7 +192,7 @@
 
 
 .muniz{
-    height: 180px; /* Altura deseada */
+    height: 180px; 
     overflow: hidden;
 }
 
@@ -61,7 +223,7 @@ color: aliceblue;
     position: absolute;
     margin-left: -15em;
    bottom: 2.5em;
-   height: 237px; /* Altura deseada */
+   height: 237px; 
    overflow: hidden;
-}
+}*/ 
 }
