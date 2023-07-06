@@ -643,7 +643,7 @@ html
 
 
 
-@media (max-height: 1050px){
+@media (max-height: 1050px) and (max-width: 375px) {
   .Name{
     font-size: 14.8vw;
   }
@@ -652,5 +652,15 @@ html
   }
   .Projects{
     top:1em;
+    margin-left: 0.1em;
   }
+.DateHome{
+  position: relative;
+  top: 52em;
+  left: -1em;
+ width: 20em;
+}
+.DateHome p{
+  font-size: 6vw;
+}
 }
