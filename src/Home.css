@@ -637,3 +637,20 @@ html
     font-size: 1vw;
   }
 }
+
+
+
+
+
+
+@media (max-height: 1050px){
+  .Name{
+    font-size: 14.8vw;
+  }
+  .subtitle{
+    font-size: 10vw;
+  }
+  .Projects{
+    top:1em;
+  }
+}
