@@ -27,8 +27,6 @@ margin: 0;
 
 .Projects{
   position: relative;
-right: 30%;
-
  }
 
  .titleP{
@@ -117,7 +115,7 @@ padding: 0;
 
  .DateHome{
   position: relative;
- top: 49em;
+ top: 52em;
  margin-left: 2.8em;
 
  }
@@ -152,6 +150,10 @@ section{
   animation: fade-in-animation 1s forwards;
  
 }
+.center-elements{
+  display: grid;
+  place-items: center;
+}
 
 
 @keyframes fade-in-animation {
@@ -180,8 +182,18 @@ html
   
   .Ship{
     position: relative;
-   margin-top: 3.5em;
+   margin-top: 2.5em;
    margin-left: 3em;
+  }
+  .AboutMe{
+    position: relative;
+    margin-top: 0.8em;
+    left: 8%;
+  }
+  .Contact{
+    position: relative
+    ;
+    margin-top: 2.2em;
   }
   .Projects{
     position: relative;
@@ -200,11 +212,7 @@ html
   }
   
   
-   .AboutMe{
-    position: relative;
-    left: 8%;
-    top: -0.2em;
-   }
+
    
    .titleA{
     position: relative;
@@ -234,8 +242,8 @@ html
   
    .Skills{
     position: relative;
-    left: 7.5%;
-    top: -4.5em;
+    left: 7.6%;
+    margin-top: 2.5em
    }
    
    .titleS{

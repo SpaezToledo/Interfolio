@@ -52,7 +52,7 @@ function Home() {
             </Link>
           
         </article>
-        <article>
+        <article className='center-elements'>
           <Link to="/projects">
             <div className="Projects fade-in">
               <img src={Projects} alt="Projects" />
@@ -61,7 +61,7 @@ function Home() {
             </Link>
           </article>
           </section>
-         <section>
+         <section className='center-elements'>
           <article className='DateHome fade-in'>
           <p>Nacido en 2001</p>
           <p>en San Miguel, Bs As.</p>

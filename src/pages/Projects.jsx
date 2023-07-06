@@ -32,14 +32,15 @@ function Projects() {
   return (
     <div>
       <section>
-      <article className="ship-container">
+      <article className="ship-containerP">
            
            <div className="ShipP fade-in">
              <img src={Ship} alt="Navegando" />
            </div>
      
        </article>
-      <article>
+       <section className='nav-list'>
+      <article className='HomeArticle'>
         {showHome && (
           <div className='HomeP fade-in' onClick={handleClick}>
             <img src={Home} alt='Home' />
@@ -79,8 +80,9 @@ function Projects() {
             </Link>
           
         </article>
-      
+        </section>
       </section>
+
 <section>
 <ul className="image-list2 fade-in">
       <li className="image-list-items Hc">

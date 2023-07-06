@@ -1,5 +1,6 @@
 .HomeP img{
   width: 10em;
+  height: auto;
 }
 .titleH{
   position: relative;
@@ -20,11 +21,17 @@ bottom: 5.6em;
   position: relative;
   margin-left: 0.5em;
   bottom: 8.1em;
+  
+}
+.ship-containerP{
+  display: grid;
+  place-items: center;
+  
 }
 .ShipP{
   position:absolute;
-margin-left: 4.2em;
-  margin-top: 33em;
+  top:40em;
+  
 }
 .ShipP img{
   width: 12em;
@@ -32,8 +39,10 @@ margin-left: 4.2em;
 
 .image-list2 {
   list-style: none;
-  padding: 0;
-  display: flex;
+  
+  display: grid;
+  place-items: center;
+  height: 20vh; 
   position:relative;
   top: 5em;
 }
@@ -55,14 +64,14 @@ color: aliceblue;
 
 .Mel{
   position: relative;
-  margin-left: -14.6em;
-  top: 58em;
+  
+  top: 40em;
 }
 
 .M{
   position: relative;
  top: 40em;
- margin-left: 0.5em;
+
 }
 .M img{
   width: 9em;
@@ -70,59 +79,132 @@ color: aliceblue;
 
 .C{
  position: relative;
-  margin-left: -10em;
- top: 48.5em;
+ top: 40.5em;
 
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px){
- .Home{
-  position: relative;
-  margin-left: 2em;
+  .Name{
+  font-size: 8vw;
+  width: 12.5em;
  }
-  .Home img{
-    width: 10em;
-  }
-  .titleH{
-    position: relative;
-   font-size: 3vw;
-   
-  }
-  .AboutMe{
-   
-  }
-  .Contact{
-   
-  }
-  .Skills{
-   
-  }
+ .subtitle{
+  font-size: 5vw;
+ }
+ .image-list2 {
+  list-style: none;
+  
+  display: grid;
+  place-items: center;
+  height: 20vh; 
+  position:relative;
+  top: 4em;
+}
+
+.image-list-items img{
+  width: 20em;
+ border-radius: 10px;
+}
+.HomeP{
+  position: relative;
+ 
+}
+.nav-list
+{
+ position: absolute;
+ bottom:85em;
+ margin-left: 2em;
+}
+.Hc{
+  position: relative;
+ top: 40em;
+}
+
+.Mel{
+  position: relative;
+ 
+  top: 12.4em;
+}
+.Hc, .M{
+  margin-right: 26em;
+}
+.Mel, .C{
+  margin-left: 22em;
+}
+.M{
+  position: relative;
+ top: 40em;
+ margin-left: em;
+}
+.M img{
+  width: 20em;
+  height: 10.2em;
+}
+
+.C{
+ position: relative;
+  margin-left: em;
+ top: 12.3em;
+}
+.C img{height: 10.2em;}
+
+.image-list2 h1{
+  font-weight: 800;
+line-height: 0.6;
+color: aliceblue; 
+}
+ 
   .ShipP{
-    position:relative;
-  margin-left: 5em;
-    margin-top: 33em;
+    position: relative;
+   
+    top: 8em;
+   margin-left: 32.5em;
   }
-  .ShipP img{
-    width: 12em;
+  .Projects{
+    position: relative;
+   left: 60%;
+   top:-30em ;
+   }
+  
+   .titleP{
+  width: 0;
+  height: 0;
+   }
+  
+   .Projects.fade-in{
+    width: 0;
+    height: 0;
   }
   
-  .image-list2 {
+  
+  
+}
+
+@media screen and (min-width: 1024px) and (max-width:1439px){
+  .Name{
+    font-size: 8vw;
+    width: 12.5em;
+   }
+   .subtitle{
+    font-size: 5vw;
+   }
+   .image-list2 {
     list-style: none;
-    padding: 0;
-    display: flex;
+    
+    display: grid;
+    place-items: center;
+    height: 20vh; 
     position:relative;
-    top: 8em;
+    top: 4em;
   }
   
   .image-list-items img{
-     width: 10em;
-    border-radius: 10px;
+    width: 30em;
+   border-radius: 10px;
   }
-  
-  .image-list2 h1{
-     font-weight: 800;
-  line-height: 0.6;
-  color: aliceblue; 
+  .HomeP{
+    position: relative;
+    top: 5em;
   }
   .Hc{
     position: relative;
@@ -131,99 +213,191 @@ color: aliceblue;
   
   .Mel{
     position: relative;
-    margin-left: -14.6em;
-    top: 58em;
+    margin-left: em;
+    top: -1.6em
   }
-  
+  .Hc, .M{
+    margin-right: 34em;
+  }
+  .Mel, .C{
+    margin-left: 30em;
+  }
   .M{
     position: relative;
    top: 40em;
-   margin-left: 0.5em;
+   margin-left: em;
   }
   .M img{
-    width: 9em;
+    width: 30em;
+    height: 14.2em;
   }
   
   .C{
    position: relative;
-    margin-left: -10em;
-   top: 48.5em;
-  
+    margin-left: em;
+   top: -1.8em;
   }
-}
-
-@media screen and (min-width: 1024px) and (max-width:1439px){
-
+  .C img{height: 14.2em;}
+  
+  .image-list2 h1{
+    font-weight: 800;
+  line-height: 0.6;
+  color: aliceblue; 
+  font-size: 3vw;
+  }
+    .nav-list{
+      position: relative;
+      bottom: 80em;
+      margin-left: 3em;
+    }
+    .ShipP{
+      position: relative;
+      bottom: 65em;
+     margin-left: 32.5em;
+    }
+  
 }
 
 @media screen and (min-width: 1440px){
-
+ 
+  
+   .image-list2 {
+    list-style: none;
+    
+    display: grid;
+    place-items: center;
+    height: 20vh; 
+    position:relative;
+    top: 4em;
+  }
+  
+  .image-list-items img{
+    width: 30em;
+   border-radius: 10px;
+  }
+  .HomeP{
+    position: relative;
+    top: 5em;
+  }
+  .Hc{
+    position: relative;
+   top: 40em;
+  }
+  
+  .Mel{
+    position: relative;
+    margin-left: em;
+    top: -1.6em
+  }
+  .Hc, .M{
+    margin-right: 34em;
+  }
+  .Mel, .C{
+    margin-left: 30em;
+  }
+  .M{
+    position: relative;
+   top: 40em;
+   margin-left: em;
+  }
+  .M img{
+    width: 30em;
+    height: 14.2em;
+  }
+  
+  .C{
+   position: relative;
+    margin-left: em;
+   top: -1.8em;
+  }
+  .C img{height: 14.2em;}
+  
+  .image-list2 h1{
+    font-weight: 800;
+  line-height: 0.6;
+  color: aliceblue; 
+  font-size: 3vw;
+  }
+    .nav-list{
+      position: relative;
+      bottom: 80em;
+      margin-left: 3em;
+    }
+    .ShipP{
+      position: relative;
+      bottom: 65em;
+     margin-left: 32.5em;
+    }
 }
 
 @media screen and (min-width: 1920px){
-/* .ShipP{
-    position: absolute;
-    margin-left: 96em;
-    margin-top: 7em;
-  }
-  .ShipP img{
-    width: 12em;
-    position: absolute;
-  }
+ 
   
-  .image-list2 {
+   .image-list2 {
     list-style: none;
-    padding: 0;
-    display: flex;
-    position: absolute;
-    margin-left: 42em;
-    margin-top: 60em;
+    
+    display: grid;
+    place-items: center;
+    height: 20vh; 
+    position:relative;
+    top: 4em;
   }
   
-  .image-list-items {
-    margin-right: 10em;
+  .image-list-items img{
+    width: 30em;
+   border-radius: 10px;
+  }
+  .HomeP{
+   
     
   }
-
-.image-list-items img{
-    width: 22em;
-    border-radius: 10px;
-}
-
-
-.muniz{
-    height: 180px; 
-    overflow: hidden;
-}
-
-.image-list2 h1{
+  .Hc{
+    position: relative;
+   top: 40em;
+  }
+  
+  .Mel{
+    position: relative;
+    margin-left: em;
+    top: -1.6em
+  }
+  .Hc, .M{
+    margin-right: 34em;
+  }
+  .Mel, .C{
+    margin-left: 30em;
+  }
+  .M{
+    position: relative;
+   top: 40em;
+   margin-left: em;
+  }
+  .M img{
+    width: 30em;
+    height: 14.2em;
+  }
+  
+  .C{
+   position: relative;
+    margin-left: em;
+   top: -1.8em;
+  }
+  .C img{height: 14.2em;}
+  
+  .image-list2 h1{
     font-weight: 800;
-line-height: 0.6;
-color: aliceblue;
-}
-.Hc{
-    position: absolute;
-    margin-left: 46.5em;
-   bottom: 22em;
-}
-
-.Mel{
-    position: absolute;
-    margin-left: 46.5em;
-    bottom: 2em;
-}
-
-.M{
-    position: absolute;
-    margin-left: 16em;
-   bottom: 2em;
-}
-
-.C{
-    position: absolute;
-    margin-left: -15em;
-   bottom: 2.5em;
-   height: 237px; 
-   overflow: hidden;
-}*/ 
+  line-height: 0.6;
+  color: aliceblue; 
+  font-size: 3vw;
+  }
+    .nav-list{
+      position: relative;
+      bottom: 80em;
+      margin-left: 8em;
+    }
+    .ShipP{
+      position: relative;
+      bottom: 70em;
+     margin-left: 30.5em;
+    }
 }
